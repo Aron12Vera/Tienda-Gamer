@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PixelZone Gamer | Inicio</title>
+
+  <!-- CSS EXTERNO -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- CSS INTERNO -->
+  <style>
+    .textos p::first-letter{ 
+      font-size: 2rem;
+      font-weight: bold;
+      color: var(--color-acento);
+    }
+
+    .textos p::first-line{
+      font-weight: bold;
+    }
+
+    .textos p::after{
+      content: " 🎮";
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1 id="titulo-principal">PixelZone Gamer</h1>
+    <p>Tu tienda de periféricos y hardware gamer en Guayaquil</p>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="activo">Inicio</a></li>
+        <li><a href="catalogo.html">Catálogo</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="layout">
+
+      <section class="textos">
+        <h2>¿Quiénes somos?</h2>
+        <p>Somos una tienda gamer pensada para jugadores que quieren mejorar su setup sin gastar de más.</p>
+        <p>Seleccionamos teclados, mouses, monitores y componentes que realmente funcionan para jugar y estudiar.</p>
+
+        <img src="Imagenes/Set_up.jpg" alt="Setup gamer con monitor y teclado iluminado">
+
+        <h2 style="color: #ffffff; text-align: center;">¿Por qué elegirnos?</h2>
+        <ul>
+          <li>Productos originales con garantía</li>
+          <li>Asesoría para armar tu setup según tu presupuesto</li>
+          <li>Precios competitivos en dólares</li>
+          <li>Envíos a toda la ciudad</li>
+          <li>Soporte técnico después de la compra</li>
+        </ul>
+      </section>
+
+      <aside>
+        <h3>Destacados</h3>
+        <p style="color: #facc15;">Revisa nuestras ofertas de la semana en el catálogo.</p>
+        <p><a href="catalogo.html">Ir al catálogo</a></p>
+        <p><a href="https://store.steampowered.com" target="_blank">Steam</a></p>
+        <p><a href="https://www.twitch.tv" target="_blank">Twitch</a></p>
+      </aside>
+
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 PixelZone Gamer</p>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="catalogo.html">Catálogo</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </footer>
+
+</body>
+</html>
